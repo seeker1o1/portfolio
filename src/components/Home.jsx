@@ -17,10 +17,10 @@ const Home = () => {
           I'm a Web Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I'm a recent graduated student majoring in Computer Information
-          Technology with a minor in Mathematics and speciziling in software
-          development. I'm focused on web-applications, data Science/Analyst,
-          and Software Quality Assurance.
+          I'm a recently completed my undergraduate degree majoring in Computer
+          Information Technology with a minor in Mathematics and speciziling in
+          software development. I'm focused on Web-applications, Data
+          Science/Analyst, and Software Quality Assurance.
         </p>
         <div>
           <button
