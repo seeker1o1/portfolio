@@ -3,6 +3,7 @@ import WorkImg from "../assets/workImg.jpeg";
 import personalWebsite from "../assets/website.png";
 import realEstate from "../assets/realestate.jpg";
 import creditCradFraud from "../assets/credit-card.jpg";
+import prototype from "../assets/prototype.jpg";
 
 const Project = () => {
   return (
@@ -57,7 +58,7 @@ const Project = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 Fraud Detection
               </span>
-              <div>
+              <div className="pt-8 text-center">
                 <a href="https://github.com/seeker1o1/creditCardFraudDetection/blob/main/Credit_card_fraud_data.ipynb">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -73,22 +74,22 @@ const Project = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${prototype})` }}
             className="shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects*/}
 
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                UI UX prototype
               </span>
-              <div>
+              <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/seeker1o1/UIUX.git">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -97,17 +98,17 @@ const Project = () => {
             </div>
           </div>
 
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${realEstate})` }}
             className="shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover effects*/}
+            {/* Hover effects*
 
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React JS Application
               </span>
-              <div>
+              <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -120,19 +121,19 @@ const Project = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className="shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover effects*/}
+            {/* Hover effects*
 
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React JS Application
               </span>
-              <div>
+              <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -145,32 +146,32 @@ const Project = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+          {/* <div
+            style={{ backgroundImage: `url(${WorkImg})` }}
             className="shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover effects*/}
+            
 
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React JS Application
               </span>
-              <div>
+              <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="/">
-                  <button className="text-center rounded-lg  px-4py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
